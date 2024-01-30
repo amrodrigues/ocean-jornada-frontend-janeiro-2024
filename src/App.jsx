@@ -13,9 +13,12 @@ function App() {
     image: 'https://rickandmortyapi.com/api/character/avatar/31.jpeg'
   }
  return( <>
-  <Card item={item1} />
-  <Card item={item2}/>
+ <div className="cards">
+     <Card item={item1} />
+     <Card item={item2}/>
+  </div>
   </>
+  
   )
 }
 
