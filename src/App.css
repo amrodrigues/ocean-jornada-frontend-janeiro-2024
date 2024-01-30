@@ -5,10 +5,12 @@
   padding: 16px;
   box-shadow: 4px 4px white; 
   text-align: center;
+  cursor: pointer;
 }
 .card > h2{
   font-size: 25px;
   color: white;
+  border-left:6px solid #A903E9;
 }
 .card >img{
   border-radius: 10px;
@@ -19,4 +21,23 @@ body{
   justify-content: center;
   align-items: center;
 }
+.tags{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom:24px:
+  max-width : 3000px;
+  justify-content: center;
+
+}
+
+.tag{
+  background : white;
+  border-radius: 8px;
+  justify-content: center;
+  padding: 4px 12px;
+  font-size :12px;
+  font-weight : bold;
+}
+
 
